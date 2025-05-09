@@ -1,0 +1,16 @@
+name: agileepoch_music
+description: Ứng dụng nghe nhạc offline với hẹn giờ và chọn file.
+
+dependencies:
+  flutter:
+    sdk: flutter
+  just_audio: ^0.9.36
+  file_picker: ^6.1.1
+  audio_session: ^0.1.13
+  path_provider: ^2.1.2
+  permission_handler: ^11.3.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/audio/
